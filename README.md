@@ -9,8 +9,9 @@ Installing the system is very easy as long as you have the following programs in
 *Apache2
 *Mysql
 *Mysql controller like phpmyadmin
-*Certbot
 *PHP7.2
+Certbot (Optional for secure website (HTTPS))
+Ubuntu 16.10 recommended for best results and least difficulty
 
 if not you can use this command to install lamp
 
