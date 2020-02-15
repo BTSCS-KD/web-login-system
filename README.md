@@ -4,13 +4,15 @@ All our software is open source to the public so people can make use and play ar
 
 ## Installation
 
-Installing the system is quiet easy as long as you have the following programs installed.
+Installing the system is very easy as long as you have the following programs installed.
 
 *Apache2
 *Mysql
 *Mysql controller like phpmyadmin
 *Certbot
 *PHP7.2
+
+if not you can use this command. (sudo apt-get install apache2 mysql-client mysql-server phpmyadmin php)
 
 If you have all of them you should be good to go.
 
