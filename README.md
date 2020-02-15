@@ -12,7 +12,24 @@ Installing the system is very easy as long as you have the following programs in
 *Certbot
 *PHP7.2
 
-if not you can use this command. (sudo apt-get install apache2 mysql-client mysql-server phpmyadmin php)
+if not you can use this command to install lamp
+sudo apt-get update
+sudo apt-get install upgrades
+sudo apt-get install apache2 mysql-client mysql-server phpmyadmin php
+
+For https use certbot free ssl generator
+sudo apt-get update
+sudo apt-get install upgrade
+sudo apt-get install software-properties-common python-software-properties
+sudo add-apt-repository ppa:certbot/certbot
+sudo apt-get update
+sudo apt-get install python-certbot-apache
+sudo certbot --apache -d yourdomain.com
+enter a valid email
+Enter A to agree to terms
+Enter Y or N to sign up to the Electronic Frontier Foundation
+Enter 2 to always make website a secure site
+
 
 If you have all of them you should be good to go.
 
